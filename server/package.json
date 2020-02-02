@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server --cors -p 8090 ./"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
